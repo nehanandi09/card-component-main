@@ -7,6 +7,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -27,6 +28,10 @@ Users should be able to:
 Desktop: ![](./images/screenshot_desktop.png)
 Mobile: ![](./images/screenshot_mobile.png)
 
+### Links
+
+Live-Site URL: [Live site](https://nehanandi09.github.io/card-component-main/)
+Github repo: [](https://github.com/nehanandi09/card-component-main)
 
 ### Built with
 
