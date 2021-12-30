@@ -7,7 +7,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -28,10 +27,6 @@ Users should be able to:
 Desktop: ![](./images/screenshot_desktop.png)
 Mobile: ![](./images/screenshot_mobile.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
 
@@ -46,7 +41,6 @@ Mobile: ![](./images/screenshot_mobile.png)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@nehanandi09](https://www.frontendmentor.io/profile/nehanandi09)
+- Twitter - [@nnandi09](https://www.twitter.com/nnandi09)
 
