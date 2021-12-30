@@ -1,0 +1,105 @@
+.card-left {
+  padding: 8rem;
+
+  @media only screen and (max-width: $bg-large) {
+    padding: 6rem;
+  }
+
+  @media only screen and (max-width: $bg-mobile) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+  }
+
+  &__heading {
+    font-weight: 700;
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+
+    &__text {
+      color: $color-soft-violet;
+    }
+  }
+
+  &__paragraph {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: $color-transparent-white-1;
+    margin-bottom: 6rem;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+
+    @media only screen and (max-width: $bg-mobile) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: $bg-mobile) {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &__item {
+      line-height: 2rem;
+      @media only screen and (max-width: $bg-mobile) {
+        margin-bottom: 2rem;
+      }
+    }
+
+    &__heading2 {
+      font-size: 2rem;
+    }
+
+    &__text {
+      font-weight: 400;
+      font-size: 1.2rem;
+      font-family: "Lexend Deca", sans-serif;
+      color: $color-transparent-white-2;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+.card-right {
+  flex: 0 0 auto;
+  background: url(../images/image-header-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 55rem;
+
+  @media only screen and (max-width: $bg-mobile) {
+    background: url(../images/image-header-mobile.jpg);
+    background-repeat: no-repeat;
+    // background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+  }
+}
+
+.overlay {
+  background: $color-soft-violet;
+  height: 100%;
+  opacity: 0.7;
+  mix-blend-mode: multiply;
+}
+
+/////////////////////////////////////////
+// ATTRIBUTION
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: $color-transparent-white-2;
+}
+.attribution a {
+  color: #fff;
+}

@@ -1,0 +1,23 @@
+main {
+  //   max-width: 200rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $color-desaturated-blue;
+  color: $color-white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 110rem;
+
+  @media only screen and (max-width: $bg-mobile) {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+  }
+}

@@ -1,0 +1,44 @@
+/// //////////////////////////////
+// VARIABLES
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+// COLORS
+$color-dark-blue: hsl(233, 47%, 7%);
+$color-desaturated-blue: hsl(244, 38%, 16%);
+$color-soft-violet: hsl(277, 64%, 61%);
+
+$color-white: hsl(0, 0%, 100%);
+$color-transparent-white-1: hsla(0, 0%, 100%, 0.75);
+$color-transparent-white-2: hsla(0, 0%, 100%, 0.6);
+
+// MEDIA QUERIS
+$bg-large: 1200px;
+$bg-mobile: 850px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px, 10/16=62.5
+
+  @media only screen and (max-width: $bg-large) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: $color-dark-blue;
+
+  min-height: 100vh;
+}
