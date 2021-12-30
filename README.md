@@ -30,8 +30,8 @@ Mobile: ![](./images/screenshot_mobile.png)
 
 ### Links
 
-Live-Site URL: [Live site](https://nehanandi09.github.io/card-component-main/)
-Github repo: [](https://github.com/nehanandi09/card-component-main)
+- Live-Site URL: [https://nehanandi09.github.io/card-component-main/](https://nehanandi09.github.io/card-component-main/)
+- Github repo: [https://github.com/nehanandi09/card-component-main](https://github.com/nehanandi09/card-component-main)
 
 ### Built with
 
